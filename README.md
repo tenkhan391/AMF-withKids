@@ -16,3 +16,4 @@ mvn spring-boot:run
 ## 다음: 도메인 영역의 확장 (Single Model, Big Ball Of Mud)
 - Store 업무 영역의 추가
 - 비대한 Monolith
+- https://github.com/msa-school/ddd-petstore-level7-big-ball-of-mud
