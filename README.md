@@ -1,4 +1,4 @@
-# withKidis
+# withKids
 # 시작하기
 
 ## Base Project 다운로드 및 실행
