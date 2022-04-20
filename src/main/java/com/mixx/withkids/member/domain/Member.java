@@ -1,4 +1,4 @@
-package com.demo.member.domain;
+package com.mixx.withkids.member.domain;
 
 import javax.persistence.*;
 
@@ -9,7 +9,7 @@ public class Member {
 	Long id;
 	String passwd;
 	String name;
-	Grade grade;
+	Category category;
 
 	public String getPasswd() {
 		return passwd;
@@ -27,17 +27,17 @@ public class Member {
 		this.name = name;
 	}
 
-	public Grade getGrade() {
-		return grade;
+	public Category getCategory() {
+		return category;
 	}
 
-	public void setGrade(Grade grade) {
-		this.grade = grade;
+	public void setCategory(Category category) {
+		this.category = category;
 	}
 
 	@Override
 	public String toString() {
-	 	return "id = " + id + " & passwd = " + passwd + " & name = " + name + " & grade = " + grade;
+	 	return "id = " + id + " & passwd = " + passwd + " & name = " + name + " & category = " + category;
 	}
 
 	// public abstract String speak();

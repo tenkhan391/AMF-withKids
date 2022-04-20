@@ -1,4 +1,4 @@
-package com.demo.member.domain;
+package com.mixx.withkids.member.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

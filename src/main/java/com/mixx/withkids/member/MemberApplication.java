@@ -1,8 +1,8 @@
-package com.demo.member;
+package com.mixx.withkids.member;
 
-import com.demo.member.domain.Grade;
-import com.demo.member.domain.Member;
-import com.demo.member.domain.Repository;
+import com.mixx.withkids.member.domain.Category;
+import com.mixx.withkids.member.domain.Member;
+import com.mixx.withkids.member.domain.Repository;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,7 +23,7 @@ public class MemberApplication {
 		Member member = new Member();
 		member.setPasswd("123456");
 		member.setName("주헌정");
-		member.setGrade(Grade.VVIP);
+		member.setCategory(Category.키즈카페);
 		
 		repository.save(member);
 
